@@ -65,7 +65,6 @@
                 <div class="profile-header">
                     <div class="profile-image-container">
                         <img src="assets/profile.jpg" alt="Marco Manalastas" class="profile-img">
-                        <div class="online-indicator"></div>
                     </div>
                     <div class="profile-info">
                         <h1 class="title">Marco Sundae H. Manalastas</h1>
@@ -98,6 +97,7 @@
                 <div class="profile-actions">
                     <a href="#projects" class="btn btn-primary glass-btn">View My Work</a>
                     <a href="#contact" class="btn btn-secondary glass-btn">Contact Me</a>
+                    <a href="assets/manalastas_resume.pdf" class="btn btn-secondary glass-btn" download><i class="fas fa-download"></i> Download CV</a>
                 </div>
             </div>
         </div>
@@ -120,6 +120,9 @@
                             <span class="tech-tag">PHP</span>
                             <span class="tech-tag">MySQL</span>
                         </div>
+                        <div class="project-links" style="margin-top: 15px; display: flex; gap: 10px;">
+                            <a href="https://github.com/ifelseyouwish/school_ticketing_system" target="_blank" class="btn glass-btn" style="padding: 8px 15px; font-size: 0.9rem;" onclick="event.stopPropagation();"><i class="fab fa-github"></i> GitHub Repo</a>
+                        </div>
                     </div>
                 </div>
 
@@ -135,6 +138,9 @@
                             <span class="tech-tag">PHP</span>
                             <span class="tech-tag">MySQL</span>
                         </div>
+                        <div class="project-links" style="margin-top: 15px; display: flex; gap: 10px;">
+                            <a href="https://github.com/ifelseyouwish/quick-save" target="_blank" class="btn glass-btn" style="padding: 8px 15px; font-size: 0.9rem;" onclick="event.stopPropagation();"><i class="fab fa-github"></i> GitHub Repo</a>
+                        </div>
                     </div>
                 </div>
 
@@ -142,13 +148,15 @@
                 <div class="glass-card project-card reveal clickable" style="transition-delay: 200ms;" onclick="openModal('instamarket')">
                     <div class="project-content">
                         <h3 class="project-title">InstaMarket (POS System)</h3>
-                        <p class="project-description">Processes customer transactions and manages grocery items through a simple desktop interface. Awarded Best in Project Presentation.</p>
+                        <p class="project-description">Processes customer transactions and manages grocery items through a simple desktop interface. Awarded Best in Project Presentation for its highly intuitive Desktop UI and fast, reliable database transactions that streamlined the checkout process.</p>
                         <div class="tech-tags">
                             <span class="tech-tag">Java</span>
                             <span class="tech-tag">Desktop UI</span>
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </div>
     </section>
@@ -167,7 +175,7 @@
                 
                 <div class="experience-content">
                     <div class="job-panel active" id="job-1">
-                        <h3>BS Information Technology <span class="company">@ Univ. of Perpetual Help System GMA</span></h3>
+                        <h3>BS Information Technology <span class="company">@ <a href="https://gma.uphsl.edu.ph/" target="_blank" style="color: inherit; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.3);">University of Perpetual Help System GMA</a></span></h3>
                         <p class="date">2023 - Present</p>
                         <ul class="job-duties">
                             <li>Developed full-stack web applications and POS systems for academic projects.</li>

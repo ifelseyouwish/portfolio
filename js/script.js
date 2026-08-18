@@ -104,7 +104,7 @@ const projectData = {
         images: [
             { src: 'assets/school_ticketing_system/project-login.png', title: 'Secure Login', desc: 'The primary authentication interface for students, faculty, and system administrators.' },
             { src: 'assets/school_ticketing_system/project-register.png', title: 'User Registration', desc: 'An account creation module designed for new users of the school support portal.' },
-            { src: 'assets/school_ticketing_system/project-dashboard-user.png', title: 'Student/Faculty Dashboard', desc: 'The main interface for standard users, displaying active support tickets and system announcements.' },
+            { src: 'assets/school_ticketing_system/project-dashboard-user.png', title: 'Student Dashboard', desc: 'The main interface for standard users, displaying active support tickets and system announcements.' },
             { src: 'assets/school_ticketing_system/project-submit-ticket.png', title: 'Request Submission', desc: 'A structured form for users to submit new service requests, complete with department categorization and urgency levels.' },
             { src: 'assets/school_ticketing_system/project-my-tickets.png', title: 'Ticket Tracking', desc: 'A personalized view allowing users to monitor the real-time status and progress of their submitted requests.' },
             { src: 'assets/school_ticketing_system/project-submit-feedback.png', title: 'Quality Assurance', desc: 'An interface enabling users to provide ratings and constructive feedback on resolved service tickets.' },
@@ -125,7 +125,7 @@ const projectData = {
 function openModal(projectId) {
     const data = projectData[projectId];
     if (!data || !data.images || data.images.length === 0) {
-        alert("Presentation not available for this project yet.");
+        alert("Preview not available for this project yet.");
         return;
     }
 
